@@ -52,7 +52,7 @@ estate-management/
 │   ├── routes/                  # Express routes
 │   ├── server.js                # Entry point for Express server
 │   ├── package.json             # Backend dependencies & scripts
-│   └── .env                     # Backend environment variables
+│   └── .env                     # Backend environment variables 
 │
 ├── README.md                    # Project description & instructions
 ├── .gitignore                   # Git ignored files/folders
