@@ -32,4 +32,31 @@ A full-stack estate/property management web app built with the MERN stack (Mongo
 
 
 ## 📁 Project Structure
+estate-management/
+├── client/                      # React frontend
+│   ├── public/                  # Static files (index.html, etc.)
+│   ├── src/
+│   │   ├── components/          # Reusable React components
+│   │   ├── pages/               # Page-level components
+│   │   ├── App.js               # Main React component
+│   │   ├── index.js             # React entry point
+│   │   └── ...                  # Other files (CSS, images, etc.)
+│   ├── package.json             # Frontend dependencies & scripts
+│   └── .env                     # Frontend environment variables
+│
+├── server/                      # Node.js + Express backend
+│   ├── config/                  # MongoDB config (e.g., db.js)
+│   ├── controllers/             # Controller functions (logic)
+│   ├── middleware/              # Auth or error-handling middlewares
+│   ├── models/                  # Mongoose models/schemas
+│   ├── routes/                  # Express routes
+│   ├── server.js                # Entry point for Express server
+│   ├── package.json             # Backend dependencies & scripts
+│   └── .env                     # Backend environment variables
+│
+├── README.md                    # Project description & instructions
+├── .gitignore                   # Git ignored files/folders
+└── screenshots/                 # (Optional) You can add UI images here
+    ├── homepage.png             # UI Screenshot example
+    ├── dashboard.png
 
